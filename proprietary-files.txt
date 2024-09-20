@@ -571,9 +571,6 @@ vendor/etc/init/emservice.rc
 vendor/etc/init/face-default-sec.rc
 vendor/etc/init/hyper-default-sec.rc
 vendor/etc/init/init.baseband.rc
-vendor/etc/init/init.ramplus.rc
-vendor/etc/init/init.s5e8825.rc
-vendor/etc/init/init.s5e8825.usb.rc
 vendor/etc/init/init.sensorhub.rc
 vendor/etc/init/init.vendor.onebinary.rc
 vendor/etc/init/init.vendor.rilcommon.rc
