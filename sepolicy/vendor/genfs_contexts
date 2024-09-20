@@ -116,6 +116,9 @@ genfscon sysfs /devices/virtual/sec/hall_ic/hall_detect                         
 # Ufs
 genfscon sysfs /devices/platform/13100000.ufs/clkgate_enable                                                                         u:object_r:sysfs_ufs_writable:s0
 
+# USB
+genfscon sysfs /devices/platform/13200000.usb/13200000.dwc3/udc/13200000.dwc3/current_speed                                          u:object_r:sysfs_usb:s0
+
 # V4L
 genfscon sysfs /devices/platform/18940000.smfc/video4linux/video12/name                                                              u:object_r:sysfs_v4l:s0
 genfscon sysfs /devices/platform/18950000.smfc/video4linux/video13/name                                                              u:object_r:sysfs_v4l:s0

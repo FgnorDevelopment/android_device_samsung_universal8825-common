@@ -225,8 +225,10 @@ PRODUCT_PACKAGES += \
     vendor.lineage.touch@1.0-service.exynos1280 
 
 # USB
+$(call soong_config_set,samsungUsbGadgetVars,gadget_name,13200000.dwc3)
 PRODUCT_PACKAGES += \
-    android.hardware.usb-service.samsung
+    android.hardware.usb-service.samsung \
+    android.hardware.usb.gadget-service.samsung
 
 # Vibrator
 PRODUCT_PACKAGES += \
