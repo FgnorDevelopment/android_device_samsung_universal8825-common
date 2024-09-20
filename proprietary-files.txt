@@ -591,7 +591,6 @@ vendor/etc/init/vendor_flash_recovery.rc
 vendor/etc/init/wifi.rc
 vendor/etc/init/wifi_slsi.rc
 vendor/etc/init/wsm-service.rc
-vendor/etc/linker.config.pb
 vendor/etc/locale/plmn_delta_eng.bin
 vendor/etc/locale/plmn_delta_zh-rCN.bin
 vendor/etc/locale/plmn_delta_zh-rHK.bin
