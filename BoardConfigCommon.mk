@@ -94,6 +94,8 @@ BOARD_VENDOR_RAMDISK_FRAGMENT.dlkm.KERNEL_MODULE_DIRS := top
 
 # DTBO
 BOARD_KERNEL_SEPARATED_DTBO := true
+# Hopefully DEVICE_PATH is set _before_ including this
+BOARD_DTBO_CFG := $(DEVICE_PATH)/configs/kernel/$(TARGET_DEVICE).cfg
 
 # DTB
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
