@@ -1075,8 +1075,6 @@ vendor/lib64/unihal_main@2.1.so
 vendor/lib64/unihal_uniplugin@1.0.so
 vendor/lib64/vintf-codecsolution-V2-ndk_platform.so
 vendor/lib64/vndk/libtinyalsa.so
-vendor/odm_dlkm/etc/build.prop
-vendor/odm_dlkm/etc/NOTICE.xml.gz
 vendor/recovery-from-boot.p
 vendor/saiv/image_understanding/db/aig_classifier/aig_classifier_cnn.tf
 vendor/saiv/image_understanding/db/aig_detector/aig_detector_cnn.tflite
