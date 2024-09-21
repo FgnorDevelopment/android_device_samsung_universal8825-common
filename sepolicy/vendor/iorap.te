@@ -1,4 +1,5 @@
 # iorapd.te
+type iorap_prefetcherd, domain;
 
 allow iorap_prefetcherd backup_data_file:dir r_dir_perms;
 
