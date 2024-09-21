@@ -17,6 +17,7 @@ COMMON_PATH := device/samsung/universal8825-common
 
 BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
+SELINUX_IGNORE_NEVERALLOWS := true
 
 # Android Verified Boot
 BOARD_AVB_ENABLE := true
