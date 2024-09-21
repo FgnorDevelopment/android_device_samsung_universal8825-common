@@ -205,11 +205,7 @@ vendor/lib64/vendor.samsung.hardware.health@2.0.so
 
 # HIDL
 -vendor/lib/android.hidl.allocator@1.0.so
-vendor/lib/libhwbinder.so
-vendor/lib/libhidltransport.so
 -vendor/lib64/android.hidl.allocator@1.0.so
--vendor/lib64/libhwbinder.so
--vendor/lib64/libhidltransport.so
 
 # Keymaster
 vendor/etc/permissions/android.hardware.hardware_keystore.xml
