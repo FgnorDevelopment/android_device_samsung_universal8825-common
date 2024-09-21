@@ -228,7 +228,7 @@ $(call soong_config_set,samsungUsbGadgetVars,gadget_name,13200000.dwc3)
 PRODUCT_PACKAGES += \
     android.hardware.usb-service.samsung \
     android.hardware.usb.gadget-service.samsung \
-    android.hardware.usb@1.3-service.dual_role_usb
+    android.hardware.usb@1.1-service.typec
 
 # Vibrator
 PRODUCT_PACKAGES += \
