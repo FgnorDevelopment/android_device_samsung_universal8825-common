@@ -134,7 +134,6 @@ vendor/lib/hw/hwcomposer.s5e8825.so
 vendor/lib/libdrm.so
 vendor/lib/libacryl.so
 vendor/lib/libdrmresource.so
-vendor/lib/libexynos.so
 vendor/lib/libexynosgraphicbuffer.so
 vendor/lib/libExynosHWCService.so
 vendor/lib/libion_exynos.so
