@@ -349,7 +349,6 @@ vendor/etc/seccomp_policy/samsung.software.media.c2-ext-policy
 -vendor/etc/vintf/manifest/vendor.samsung.hardware.tlc.hdm@1.1-manifest.xml
 -vendor/etc/vintf/manifest/vendor.samsung.hardware.tlc.iccc@1.0-manifest.xml
 -vendor/etc/vintf/manifest/vendor.samsung.hardware.tlc.kg@1.1-manifest.xml
--vendor/etc/vintf/manifest/vendor.samsung.hardware.vibrator-default.xml
 -vendor/etc/vintf/manifest/vendor.samsung.hardware.wifi.hostapd.xml
 -vendor/etc/vintf/manifest/vendor.samsung.hardware.wifi@2.0-service.xml
 -vendor/etc/vintf/manifest/vendor.samsung_slsi.hardware.eden_runtime@1.0-service.xml

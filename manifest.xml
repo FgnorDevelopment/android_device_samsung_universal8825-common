@@ -184,50 +184,6 @@
         </interface>
         <fqname>@1.0::IDevice/default</fqname>
     </hal>
-    <hal format="hidl" override="true">
-        <name>android.hardware.secure_element</name>
-        <transport>hwbinder</transport>
-        <version>1.2</version>
-        <interface>
-            <name>ISecureElement</name>
-            <instance>eSE1</instance>
-        </interface>
-        <fqname>@1.2::ISecureElement/eSE1</fqname>
-    </hal>
-    <hal format="aidl" override="true">
-        <name>android.hardware.security.keymint</name>
-        <interface>
-            <name>IKeyMintDevice</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>IKeyMintDevice/default</fqname>
-    </hal>
-    <hal format="aidl" override="true">
-        <name>android.hardware.security.secureclock</name>
-        <interface>
-            <name>ISecureClock</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>ISecureClock/default</fqname>
-    </hal>
-    <hal format="aidl" override="true">
-        <name>android.hardware.security.sharedsecret</name>
-        <interface>
-            <name>ISharedSecret</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>ISharedSecret/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>android.hardware.soundtrigger</name>
-        <transport>hwbinder</transport>
-        <version>2.3</version>
-        <interface>
-            <name>ISoundTriggerHw</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@2.3::ISoundTriggerHw/default</fqname>
-    </hal>
     <hal format="hidl">
         <name>android.hardware.thermal</name>
         <transport>hwbinder</transport>
@@ -390,10 +346,6 @@
             <instance>default</instance>
         </interface>
         <fqname>@1.0::ISehSkpm/default</fqname>
-    </hal>
-    <hal format="aidl">
-        <name>vendor.samsung.hardware.snap</name>
-        <fqname>ISehSnap/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.samsung.hardware.sysinput</name>
