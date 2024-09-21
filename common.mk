@@ -70,7 +70,6 @@ PRODUCT_PACKAGES += \
 
 # DRM
 PRODUCT_PACKAGES += \
-    android.hardware.drm@1.4-service.clearkey \
     android.hardware.drm@1.4 \
     libdrmclearkeyplugin \
     libdrm 
@@ -86,8 +85,8 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.3-service-samsung.universal8825 \
     SamsungUdfpsHandler.universal8825
 else
-PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.3-service.samsung
+#PRODUCT_PACKAGES += \
+#    android.hardware.biometrics.fingerprint@2.3-service.samsung
 endif
 
 # Gatekeeper
@@ -120,8 +119,8 @@ PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_video_le.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_video_le.xml
 
 # NFC
-PRODUCT_PACKAGES += \
-    sec.android.hardware.nfc@1.2-service
+#PRODUCT_PACKAGES += \
+#    sec.android.hardware.nfc@1.2-service
 
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/nfc/libnfc-nci.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/libnfc-nci.conf \
@@ -238,7 +237,6 @@ PRODUCT_PACKAGES += \
 # WiFi
 PRODUCT_PACKAGES += \
     WifiOverlay \
-    android.hardware.wifi@1.0-service \
     hostapd \
     wpa_supplicant
 
