@@ -130,7 +130,7 @@ TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
 TARGET_USES_MKE2FS := true
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
-TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/configs/init/recovery.fstab
+TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/configs/fstab/recovery.fstab
 
 # Releasetools
 TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_exynos1280
