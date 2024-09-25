@@ -71,10 +71,8 @@ vendor/lib64/vendor.samsung.hardware.audio@1.0.so
 vendor/lib64/vendor.samsung_slsi.hardware.audio_dump@1.0.so
 
 # Bluetooth
-vendor/bin/hw/android.hardware.bluetooth@1.0-service
 vendor/etc/bluetooth/bt_did.conf
 vendor/etc/bluetooth_audio_policy_configuration.xml
-vendor/etc/init/android.hardware.bluetooth@1.0-service.rc
 vendor/lib/hw/audio.bluetooth.default.so
 vendor/lib/hw/vendor.samsung.hardware.bluetooth.a2dp@1.0-impl.so
 vendor/lib/hw/vendor.samsung.hardware.bluetooth.audio@2.1-impl.so
@@ -83,8 +81,6 @@ vendor/lib/libsehbluetooth_audio_session.so
 vendor/lib/vendor.samsung.hardware.bluetooth.a2dp@1.0.so
 vendor/lib/vendor.samsung.hardware.bluetooth.audio@2.0.so
 vendor/lib/vendor.samsung.hardware.bluetooth.audio@2.1.so
-vendor/lib64/android.hardware.bluetooth@1.0.so
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl.so
 vendor/lib64/hw/audio.bluetooth.default.so
 vendor/lib64/hw/vendor.samsung.hardware.bluetooth.a2dp@1.0-impl.so
 vendor/lib64/hw/vendor.samsung.hardware.bluetooth.audio@2.1-impl.so
@@ -105,11 +101,6 @@ vendor/etc/init/android.hardware.drm@1.4-service.clearkey.rc
 vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc
 -vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.clearkey.xml
 -vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml
-vendor/lib64/android.hardware.drm@1.0.so
-vendor/lib64/android.hardware.drm@1.1.so
-vendor/lib64/android.hardware.drm@1.2.so
-vendor/lib64/android.hardware.drm@1.3.so
-vendor/lib64/android.hardware.drm@1.4.so
 
 # DRM-Widevine
 vendor/lib/mediadrm/libdrmclearkeyplugin.so
@@ -156,19 +147,12 @@ vendor/bin/hw/vendor.samsung.hardware.gnss@2.1-service
 vendor/etc/init/vendor.samsung.hardware.gnss@2.1-service.rc
 vendor/lib/libwrappergps.so
 vendor/lib64/libwrappergps.so
-vendor/lib64/hw/android.hardware.gnss@2.1-impl.so
 vendor/lib64/hw/vendor.samsung.hardware.gnss@2.1-impl.so
 vendor/lib64/vendor.samsung.hardware.gnss@2.0.so
 vendor/lib64/vendor.samsung.hardware.gnss@2.1.so
 
 # Gatekeeper
-vendor/bin/hw/android.hardware.gatekeeper@1.0-service
-vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc
-vendor/lib/android.hardware.gatekeeper@1.0.so
-vendor/lib/hw/android.hardware.gatekeeper@1.0-impl.so
 vendor/lib/hw/gatekeeper.s5e8825.so
-vendor/lib64/android.hardware.gatekeeper@1.0.so
-vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl.so
 vendor/lib64/hw/gatekeeper.s5e8825.so
 
 # Graphics
@@ -178,17 +162,8 @@ vendor/lib64/egl/libGLES_mali.so
 vendor/lib64/hw/vulkan.mali.so
 
 # Health
-vendor/bin/hw/android.hardware.health@2.1-service-samsung
-vendor/etc/init/android.hardware.health@2.1-service-samsung.rc
--vendor/etc/vintf/manifest/android.hardware.health@2.1-samsung.xml
-vendor/lib/android.hardware.health@1.0.so
-vendor/lib/android.hardware.health@2.0.so
-vendor/lib/android.hardware.health@2.1.so
 vendor/lib/hw/android.hardware.health@2.0-impl-2.1-samsung.so
 vendor/lib/vendor.samsung.hardware.health@2.0.so
-vendor/lib64/android.hardware.health@1.0.so
-vendor/lib64/android.hardware.health@2.0.so
-vendor/lib64/android.hardware.health@2.1.so
 vendor/lib64/hw/android.hardware.health@2.0-impl-2.1-samsung.so
 vendor/lib64/vendor.samsung.hardware.health@2.0.so
 
@@ -232,19 +207,11 @@ vendor/etc/init/android.hardware.sensors@2.0-service-multihal.rc
 -vendor/etc/vintf/manifest/android.hardware.sensors@2.0-multihal.xml
 -vendor/etc/init/init.sensorhub.rc
 vendor/etc/sensors/hals.conf
-vendor/lib/android.hardware.sensors@1.0.so
-vendor/lib/android.hardware.sensors@2.0-ScopedWakelock.so
-vendor/lib/android.hardware.sensors@2.0.so
-vendor/lib/android.hardware.sensors@2.1.so
 vendor/lib/libsensorlistener.so
 vendor/lib/libsensorndkbridge.so
 vendor/lib/sensors.grip.so
 vendor/lib/sensors.inputvirtual.so
 vendor/lib/sensors.sensorhub.so
-vendor/lib64/android.hardware.sensors@1.0.so
-vendor/lib64/android.hardware.sensors@2.0-ScopedWakelock.so
-vendor/lib64/android.hardware.sensors@2.0.so
-vendor/lib64/android.hardware.sensors@2.1.so
 vendor/lib64/libsensorlistener.so
 vendor/lib64/libsensorndkbridge.so
 vendor/lib64/sensors.grip.so
@@ -258,31 +225,19 @@ vendor/lib64/hw/vibrator.default.so
 vendor/lib64/libvibrator.so
 
 # WiFi
-vendor/bin/hw/android.hardware.wifi@1.0-service
 vendor/etc/wlan_common_rc
 vendor/etc/wlan_vendor_rc
 vendor/etc/init/android.hardware.wifi.supplicant-service.rc
 vendor/etc/init/android.hardware.wifi@1.0-service.rc
 vendor/etc/init/wifi.rc
 vendor/etc/init/wifi_slsi.rc
--vendor/etc/vintf/manifest/android.hardware.wifi.hostapd.xml
 -vendor/etc/vintf/manifest/android.hardware.wifi.supplicant.xml
--vendor/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml
-vendor/lib64/android.hardware.wifi.hostapd@1.0.so
-vendor/lib64/android.hardware.wifi.hostapd@1.1.so
-vendor/lib64/android.hardware.wifi.hostapd@1.2.so
-vendor/lib64/android.hardware.wifi.hostapd@1.3.so
 vendor/lib64/android.hardware.wifi.supplicant@1.0.so
 vendor/lib64/android.hardware.wifi.supplicant@1.1.so
 vendor/lib64/android.hardware.wifi.supplicant@1.2.so
 vendor/lib64/android.hardware.wifi.supplicant@1.3.so
 vendor/lib64/android.hardware.wifi.supplicant@1.4.so
-vendor/lib64/android.hardware.wifi@1.0.so
-vendor/lib64/android.hardware.wifi@1.1.so
-vendor/lib64/android.hardware.wifi@1.2.so
-vendor/lib64/android.hardware.wifi@1.3.so
-vendor/lib64/android.hardware.wifi@1.4.so
-vendor/lib64/android.hardware.wifi@1.5.so
+
 
 # Samsung
 vendor/apex/com.samsung.android.authfw.ta.preload.apex
@@ -617,12 +572,6 @@ vendor/lib/android.frameworks.cameraservice.service@2.0.so
 vendor/lib/android.frameworks.cameraservice.service@2.1.so
 vendor/lib/android.frameworks.cameraservice.service@2.2.so
 vendor/lib/android.frameworks.sensorservice@1.0.so
-vendor/lib/android.hardware.cas.native@1.0.so
-vendor/lib/android.hardware.cas@1.0.so
-vendor/lib/android.hardware.cas@1.1.so
-vendor/lib/android.hardware.cas@1.2.so
-vendor/lib/android.hardware.media.c2@1.0.so
-vendor/lib/android.hardware.media.c2@1.1.so
 vendor/lib/arm.graphics-V1-ndk_platform.so
 vendor/lib/audioclient-types-aidl-cpp.so
 vendor/lib/audio_common-aidl-cpp.so
@@ -826,11 +775,6 @@ vendor/lib64/android.frameworks.cameraservice.service@2.0.so
 vendor/lib64/android.frameworks.cameraservice.service@2.1.so
 vendor/lib64/android.frameworks.cameraservice.service@2.2.so
 vendor/lib64/android.frameworks.sensorservice@1.0.so
-vendor/lib64/android.hardware.dumpstate@1.0.so
-vendor/lib64/android.hardware.dumpstate@1.1.so
-vendor/lib64/android.hardware.media.c2@1.0.so
-vendor/lib64/android.hardware.media.c2@1.1.so
-vendor/lib64/android.hardware.media.c2@1.2.so
 vendor/lib64/arm.graphics-V1-ndk_platform.so
 vendor/lib64/audioclient-types-aidl-cpp.so
 vendor/lib64/audio_common-aidl-cpp.so

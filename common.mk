@@ -51,6 +51,7 @@ PRODUCT_COPY_FILES += \
 # Bluetooth
 PRODUCT_PACKAGES += \
     audio.bluetooth.default \
+    android.hardware.bluetooth@1.0 \
     android.hardware.bluetooth@1.0-impl \
     android.hardware.bluetooth@1.0-service 
 	
@@ -74,6 +75,9 @@ PRODUCT_PACKAGES += \
     libdrmclearkeyplugin \
     libdrm 
 
+# Dumpstate
+PRODUCT_PACKAGES += \
+    android.hardware.dumpstate@1.1
 # Fastbootd
 PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.1-impl-mock \
@@ -91,12 +95,19 @@ endif
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
+    android.hardware.gatekeeper@1.0.vendor \
     android.hardware.gatekeeper@1.0-service \
     android.hardware.gatekeeper@1.0-impl
 
 # GNSS
 PRODUCT_PACKAGES += \
-    android.hardware.gnss@2.1.vendor
+    android.hardware.gnss@2.1.vendor \
+    android.hardware.gnss@2.0.vendor \
+    android.hardware.gnss@1.1.vendor \
+    android.hardware.gnss@1.0.vendor \
+    android.hardware.gnss.measurement_corrections@1.0.vendor \
+    android.hardware.gnss.measurement_corrections@1.1.vendor \
+    android.hardware.gnss.visibility_control@1.0.vendor
 
 # Health
 PRODUCT_PACKAGES += \
@@ -110,6 +121,11 @@ PRODUCT_PACKAGES += \
     libhwbinder:64
 
 # Media
+PRODUCT_PACKAGES += \
+    android.hardware.cas.native@1.0 \
+    android.hardware.cas@1.2 \
+    android.hardware.media.c2@1.2
+
 PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_audio.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_telephony.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_telephony.xml \
@@ -203,6 +219,7 @@ PRODUCT_COPY_FILES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
+    android.hardware.sensors@2.0-ScopedWakelock.vendor \
     android.hardware.contexthub@1.0.vendor \
     android.hardware.sensors-service.samsung-multihal
 
@@ -235,6 +252,7 @@ PRODUCT_PACKAGES += \
 
 # WiFi
 PRODUCT_PACKAGES += \
+    android.hardware.wifi@1.5 \
     WifiOverlay \
     hostapd \
     wpa_supplicant
