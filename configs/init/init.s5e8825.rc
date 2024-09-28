@@ -198,14 +198,6 @@ on post-fs
     # set RLIMIT_MEMLOCK to 64MB
     setrlimit 8 67108864 67108864
 
-on post-fs-data
-# Samsung Pay
-    mkdir /efs/pfw_data 0760 vendor_spay vendor_spay
-
-# MST/NFC Switch
-    chown vendor_spay system /dev/mst_ctrl
-    chmod 0660 /dev/mst_ctrl
-
 # Log data folder
     mkdir /data/vendor 0771 root system
     mkdir /data/vendor/log 0771 root system
