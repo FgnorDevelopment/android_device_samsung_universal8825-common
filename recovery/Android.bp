@@ -1,5 +1,5 @@
 cc_library_static {
-    name: "librecovery_updater_exynos1280",
+    name: "librecovery_updater_s5e8825",
     srcs: [
         "recovery_updater.cpp",
     ],
